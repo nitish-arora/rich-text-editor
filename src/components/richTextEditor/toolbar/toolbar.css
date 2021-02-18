@@ -1,0 +1,21 @@
+.toolbar {
+  display: flex;
+}
+
+.toolbar > .toolbar-action:not(:first-child) {
+  margin-left: 5px;
+}
+
+.toolbar > .toolbar-action > input[type="text"] {
+  padding: 9px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+
+.toolbar > .toolbar-action:nth-child(4) {
+  margin-left: 20px;
+}
+
+.toolbar > .toolbar-action:nth-child(5) {
+  margin-right: 20px;
+}

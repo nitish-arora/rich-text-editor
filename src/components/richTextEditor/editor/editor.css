@@ -1,0 +1,17 @@
+.editor {
+  border: 1px solid rgb(30, 137, 236);
+  margin-top: 10px;
+  border-radius: 5px;
+  min-height: 300px;
+  width: 100%;
+}
+
+#editorOutput {
+  padding: 20px;
+  font-size: 25px;
+}
+
+#editorOutput:empty::before {
+  content: "Editor..";
+  color: grey;
+}
